@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background: #f5f6fa;
+}
+
+.course-card {
+    width: 320px;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.card-image {
+    height: 160px;
+    background: linear-gradient(135deg, #5f7cff, #7a4bc4);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-image .icon {
+    font-size: 48px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    
+    color: #fff;
+    font-size: 13px;
+    padding: 4px 8px;
+    
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.tag {
+    background: #eef2ff;
+    color: #4f46e5;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 6px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.title-rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-rating h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.rating {
+    font-size: 14px;
+}
+
+.description {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+    line-height: 1.4;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 14px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+button {
+    background: #2563eb;
+    color: #fff;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}

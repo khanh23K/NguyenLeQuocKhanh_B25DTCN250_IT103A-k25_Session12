@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header {
+    width: 100%;
+    display: flex;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 300px 16px 300px;
+}
+h1{
+    color: #6a72da;
+}
+.list-link{
+    display: flex;
+    gap: 40px;
+}
+.link {
+}
+.button {
+    background-color: #0d6efd;
+    border: 1px solid #0d6efd;
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+}
